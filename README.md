@@ -4,6 +4,11 @@ Find it annoying to copy paste `@indiealexh@tny.social` to look at someones Mast
 
 This extension looks for mastodon style usernames and replaces them to direct you to seeing that profile via your server.
 
+## Installation
+
+- Install it from [the Chrome Web Store](https://chrome.google.com/webstore/detail/mastodon-link/nlfdgcdfjnobjocicnddjghdbmgglame)
+- Git clone this repo and [load it unpacked](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
+
 ## Setup
 
 Click on the mastodon link chrome extensions options:
@@ -17,3 +22,7 @@ Enter your instances hostname and click save:
 Find a mastodon username and enjoy the convenient icon link! 
 
 ![-indiealexh-tny-social-indiealexh-Twitter](https://user-images.githubusercontent.com/1066212/203491063-f5025516-e172-4838-a11a-55a5e5a1707d.png)
+
+## License
+
+This project is released under the Unlicense license. See the enclosed LICENSE for details.
