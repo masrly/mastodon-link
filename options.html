@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head><title>Masrly - Mastodon Linker options</title></head>
+<style>
+    body {
+        padding: 5em;
+    }
+
+    input:invalid {
+        box-shadow: 0 0 5px 1px red;
+    }
+
+    input:focus:invalid {
+        box-shadow: none;
+    }
+
+    .spacer {
+        margin: 1em;
+    }
+</style>
+<body>
+<label for="instance">Mastodon instance:</label>
+<input type="text" id="instance" name="instance" placeholder="tny.social" required pattern="^[a-zA-Z0-9\-ßàÁâãóôþüúðæåïçèõöÿýòäœêëìíøùîûñé]{1,63}\.[a-zA-Z]{2,63}$">
+
+<div class="spacer"></div>
+
+<button id="save">Save</button>
+<div class="spacer"></div>
+<div id="status"></div>
+<script src="options.js"></script>
+</body>
+</html>
