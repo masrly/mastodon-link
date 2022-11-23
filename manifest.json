@@ -1,6 +1,6 @@
 {
   "name": "Mastodon Link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Alexander Haslam <@indiealexh@tny.social>",
   "manifest_version": 3,
   "description": "Extension to make it easy to visit mastodon profiles from your instance",
