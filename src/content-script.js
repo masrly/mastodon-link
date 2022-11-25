@@ -1,10 +1,9 @@
 let instanceUrl = "";
 
-const mastodonRegex = new RegExp(`@[a-zA-Z]{1,30}@([a-zA-Z0-9\\-ßàÁâãóôþüúðæåïçèõöÿýòäœêëìíøùîûñé]{1,63}\\.){1,127}[a-zA-Z]{2,63}`);
-const looseMastodonRegex = new RegExp(`[a-zA-Z]{1,30}@([a-zA-Z0-9\\-ßàÁâãóôþüúðæåïçèõöÿýòäœêëìíøùîûñé]{1,63}\\.){1,127}[a-zA-Z]{2,63}`);
+const mastodonRegex = new RegExp(`@[a-zA-Z]{1,30}@([a-zA-Z0-9\\-ßàÁâãóôþüúðæåïçèõöÿýòäœêëìíøùîûñé]{1,63}\\.){1,127}[a-zA-Z]{2,63}`,`gm`);
+const looseMastodonRegex = new RegExp(`[a-zA-Z]{1,30}@([a-zA-Z0-9\\-ßàÁâãóôþüúðæåïçèõöÿýòäœêëìíøùîûñé]{1,63}\\.){1,127}[a-zA-Z]{2,63}`,`gm`);
 
 const mutationCallback = (mutationList, observer) => {
-    console.log(mutationList);
     walk(document.body);
 };
 //
