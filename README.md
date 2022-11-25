@@ -4,6 +4,12 @@ Find it annoying to copy paste `@indiealexh@tny.social` to look at someones Mast
 
 This extension looks for mastodon style usernames and replaces them to direct you to seeing that profile via your server.
 
+## Build
+
+- `npm install`
+- `npm run build`
+- You can then load the extension from the `dist` directory
+
 ## Installation
 
 - Install it from [the Chrome Web Store](https://chrome.google.com/webstore/detail/mastodon-link/nlfdgcdfjnobjocicnddjghdbmgglame)
