@@ -1,20 +1,20 @@
 {
   "name": "Mastodon Link",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Alexander Haslam <@indiealexh@tny.social>",
   "manifest_version": 3,
   "description": "Extension to make it easy to visit mastodon profiles from your instance",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content-script.js"]
+      "js": ["content_script.js"]
     }
   ],
   "permissions": [
     "storage"
   ],
   "options_ui": {
-    "page": "options/options.html",
+    "page": "options.html",
     "open_in_tab": false
   },
   "icons": {

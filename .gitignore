@@ -1,2 +1,4 @@
 /.idea
 /mastodon-link.zip
+node_modules
+/dist
