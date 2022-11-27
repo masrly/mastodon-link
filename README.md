@@ -12,8 +12,12 @@ This extension looks for mastodon style usernames and replaces them to direct yo
 
 ## Installation
 
+### Chrome
 - Install it from [the Chrome Web Store](https://chrome.google.com/webstore/detail/mastodon-link/nlfdgcdfjnobjocicnddjghdbmgglame)
-- Git clone this repo and [load it unpacked](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
+- Git clone this repo and [load it unpacked](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)
+
+### Firefox
+- Install it from [the Firefox Addon Site](https://addons.mozilla.org/en-US/firefox/addon/mastodon-link/)
 
 ## Setup
 
